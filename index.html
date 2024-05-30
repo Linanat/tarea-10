@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/scss/proyecto.css">
+    <title>Tarea 10</title>
+</head>
+<body>
+     <hr>
+    <h1>saludos</h1>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola" data-contenido="Hola Daniel"> 
+          Daniel
+        </button>
+
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola"  data-contenido="Hola Tomas">
+          Tomas
+        </button>
+        
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola" data-contenido="Hola Javier">
+          Javier
+        </button>
+
+        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola" data-contenido="Hola Franco">
+          Franco
+        </button>
+
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola" data-contenido="Hola a todos">
+          Todos
+        </button>
+
+        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ventanaEmergente" tabindex="-1" aria-labelledby="tituloModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="tituloModal">Hola</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap-5.3.3/dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
